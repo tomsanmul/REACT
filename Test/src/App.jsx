@@ -5,6 +5,9 @@ import './App.css'
 import Gallery from './Scientist'
 import ListPeople from './peoples'
 import ScientistsGallery from './ScientistsGallery'
+import ExampleComponent from './ExampleComponent'
+import Form from './Form'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,12 +37,21 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
 
+      
+      {/* COMENTO ESTAS 3 PRUEBAS 
       <div>
         <ListPeople />
+
         <Gallery />
 
         <ScientistsGallery />
-    </div>
+
+      </div>
+      */}
+
+       <div>
+           <Form />       
+      </div>
     
     </>
     
