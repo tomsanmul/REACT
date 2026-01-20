@@ -38,7 +38,6 @@ function App() {
       </p>
 
       
-      {/* COMENTO ESTAS 3 PRUEBAS 
       <div>
         <ListPeople />
 
@@ -47,7 +46,7 @@ function App() {
         <ScientistsGallery />
 
       </div>
-      */}
+      
 
        <div>
            <Form />       
