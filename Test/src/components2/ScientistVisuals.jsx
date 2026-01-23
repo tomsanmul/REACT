@@ -1,4 +1,4 @@
-import { people } from './data.js';
+import { people } from "../data.js";
 
 export default function ScientistVisuals(props) {
   const condition = props.dataFormat;

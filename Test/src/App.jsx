@@ -1,5 +1,9 @@
-import MyFooter from "./components/MyFooter.jsx";
-import Menu from "./components/Menu.jsx";
+
+
+import MyFooter from "./components2/MyFooter.jsx";
+import Menu from "./components2/Menu.js";
+
+
 
 export default function ScientistsGallery() {
   return (
