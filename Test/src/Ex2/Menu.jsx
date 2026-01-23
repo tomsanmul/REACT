@@ -5,9 +5,9 @@ import Home from "./Home.jsx";
 import Header from "./Header.jsx";
 
 export default function Menu() {
-  const dataFormat = "table";
-  const age = 26;
-
+  const dataFormat = "card";
+  const age = "";
+  const profession = "";
   const [pageToRender, setPageToRender] = useState("Home");
 
   return (
@@ -20,14 +20,14 @@ export default function Menu() {
         </button>
       </div>
 
-      <Header profession="physicist" />
+      <Header profession={profession} />
 
       {pageToRender === "Home" && <Home />}
 
-      {pageToRender === "ListRender" && <ListRender profession="physicist" />}
+      {pageToRender === "ListRender" && <ListRender profession={profession} />}
 
       {pageToRender === "ScientistVisuals" && (
-        <ScientistVisuals dataFormat={dataFormat} age={age} />
+        <ScientistVisuals dataFormat={dataFormat} age={age} profession={profession} />
       )}
     </>
   );

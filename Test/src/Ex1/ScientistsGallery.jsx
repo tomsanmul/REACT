@@ -1,5 +1,5 @@
-import { people } from "./data.js";
-import { getImageUrl } from "./utils.js";
+import { people } from "../data.js";
+import { getImageUrl } from "../utils.js";
 
 
 function ScientistVisuals(props) {
