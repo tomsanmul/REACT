@@ -55,13 +55,7 @@ function TableScientistVisuals(props) {
 
 function CardsScientistVisuals(props) {
   
-  const scientistCards = props.listToRender.map((person) => (
-    
-    <div style={{ background: "grey", margin: "6px", padding: "8px" }}>
-      {" "}
-      {person.name} {person.age} {person.profession}
-    </div>
-  ));
+  const scientistCards = props.listToRender;
 
 
   return (
