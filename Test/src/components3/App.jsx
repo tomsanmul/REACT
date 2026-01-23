@@ -39,7 +39,10 @@ export default function TrafficLight() {
 }
 
 
-/* VERSIÓN 2 CON ASYNC / AWAIT EN LA FUNCIÓN SETTIMEOUT
+
+/* 
+
+//VERSIÓN 2 MEJORADA CON ASYNC / AWAIT EN LA FUNCIÓN SETTIMEOUT
 
 import { useState } from "react";
 
