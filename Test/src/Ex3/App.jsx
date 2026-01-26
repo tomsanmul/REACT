@@ -1,3 +1,6 @@
+/*
+// Version 1
+
 import { useState } from "react";
 
 export default function TrafficLight() {
@@ -38,6 +41,7 @@ export default function TrafficLight() {
   );
 }
 
+*/
 
 
 /* 
@@ -86,7 +90,7 @@ export default function TrafficLight() {
 */
 
 
-/* 
+
 //VERSIO 3 3 estats en un hook
 
 import { useState } from "react";
@@ -130,4 +134,3 @@ export default function TrafficLight() {
     </>
   );
 }
-*/
