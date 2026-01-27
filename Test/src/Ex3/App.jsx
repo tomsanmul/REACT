@@ -210,7 +210,7 @@ export default function TrafficLight() {
     <>
      <form id="TrafficLight">
 
-        <h>Tiempo para STOP: <input type="text" id="stop" name="stop" placeholder="time to stop" value={action.STOP} onChange={handleClick} required/></h>
+        <h>Tiempo para STOP: <input type="text" id="sstop" name="stop" placeholder="time to stop" value={action.STOP} onChange={handleClick} required/></h>
         <br></br>
         <h>Tiempo para WAIT: <input type="text" id="wait" name="wait" placeholder="time to wait" value={action.WAIT} onChange={handleClick} required/></h>
         <br></br>
