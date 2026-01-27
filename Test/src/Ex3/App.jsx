@@ -315,9 +315,9 @@ const handleChange = (e) => {
 
   return (
     <form id="TrafficLight" onSubmit={handleClick}>
-      <p>Tiempo para STOP: <input type="text" name="STOP" value={action.STOP} onChange={handleChange} /></p>
-      <p>Tiempo para WAIT: <input type="text" name="WAIT" value={action.WAIT} onChange={handleChange} /></p>
-      <p>Tiempo para WALK: <input type="text" name="WALK" value={action.WALK} onChange={handleChange} /></p>
+      <p>Tiempo para STOP: <input type="text" id="STOP" name="STOP" value={action.STOP} onChange={handleChange} /></p>
+      <p>Tiempo para WAIT: <input type="text" id="WAIT" name="WAIT" value={action.WAIT} onChange={handleChange} /></p>
+      <p>Tiempo para WALK: <input type="text" id="WALK" name="WALK" value={action.WALK} onChange={handleChange} /></p>
 
       <button  type="submit" id="btnSend" disabled={!buttonEnabled} >
           Change to {action ? "Walk & Walk" : "Stop"}
