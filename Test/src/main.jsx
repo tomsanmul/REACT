@@ -6,8 +6,10 @@ import './index.css'
 //import App from './App.jsx'
 //import App from './Ex0/App.jsx'
 //import App from './Ex1/App.jsx'
-import App from './Ex3/App.jsx'
+//import App from './Ex2/App.jsx'
 //import App from './Ex3/App.jsx'
+//import App from './Ex4/App.jsx'
+import App from './Ex5/App.jsx'
 
 
 
