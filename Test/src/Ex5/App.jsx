@@ -1,5 +1,7 @@
-//Exercici 5: UTITZANT HOOKS useState, useEffect
-// Crida al EndPoint "getALL" de la API REST Apartments i mostrar la llista. Controlar estat am HOOK usseEffect
+// Exercici 5: UTITZANT HOOKS useState, useEffect
+// Crida al EndPoint "/getALL" de la API REST Apartments i mostrar la llista. Controlar estat am HOOK usseEffect
+
+
 
 import axios from "axios";
 import { useState, useEffect } from 'react';
@@ -12,7 +14,7 @@ export default function List() {
   useEffect(() => {
     const fetchApartments = async () => {
       try {
-        const response = await axios.get("http://localhost:8080/api/apartment/api/apartment/getAll");
+        const response = await axios.get("http://localhost:8080/api/apartment/getAll");
         setApartments(response.data);
         setIsLoading(false);
    
@@ -63,3 +65,5 @@ export default function List() {
     </>
   );
 };
+
+
